@@ -2,7 +2,15 @@ package rpg;
 
 public class Position {
 
-    private final int coordX, coordY;
+    final int coordX, coordY;
+
+    public int getX() {
+        return this.coordX;
+    }
+
+    public int getY() {
+        return this.coordY;
+    }
 
     @Override
     public String toString() {

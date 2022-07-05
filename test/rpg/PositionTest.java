@@ -11,6 +11,28 @@ import randomness.Pseudorandom;
 class PositionTest {
 
     @Test
+    void testGetX() {
+        System.out.println("getX");
+        int expected = Pseudorandom.nextInt(256);
+        int y = Pseudorandom.nextInt(256);
+        Position position = new Position(expected, y);
+        int actual = position.getX();
+        String msg = "x of " + position + " should be " + expected;
+        assertEquals(expected, actual, msg);
+    }
+
+    @Test
+    void testGetY() {
+        System.out.println("getY");
+        int x = Pseudorandom.nextInt(256);
+        int expected = Pseudorandom.nextInt(256);
+        Position position = new Position(x, expected);
+        int actual = position.getY();
+        String msg = "y of " + position + " should be " + expected;
+        assertEquals(expected, actual, msg);
+    }
+
+    @Test
     void testToString() {
         System.out.println("toString");
         int x = Pseudorandom.nextInt(32) - 16;
