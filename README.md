@@ -13,6 +13,7 @@ This was spun off from the Assorted Exercises project.
 
 Quoting once again:
 
-TODO: Copy project description from course modules
+> Add a GUI to the Humans vs Goblins project, using a GUI of your choice. Add 
+> unit testing, and exception handling where appropriate.
 
 Java 8 but might switch to Java 11 if necessary. JUnit 5.70.
