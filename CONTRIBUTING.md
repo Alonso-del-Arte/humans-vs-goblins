@@ -1,7 +1,7 @@
 # Guidelines for Hacktoberfest contributors
 
-Although this project started off as a class assignments, I am planning to open 
-it up to Hacktoberfest 2022 contributors.
+Although this project started off as a class assignment, I am planning to open 
+it up to Hacktoberfest 2023 contributors.
 
 * Build tool is IntelliJ IDEA's default. Don't bother me about the build tool.
 * Java 8, JUnit 5 (Jupiter). At my option I may change to Java 11. You may use 
